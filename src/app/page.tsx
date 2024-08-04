@@ -80,7 +80,7 @@ export default function Home() {
               <FormItem>
                 <FormLabel>Password</FormLabel>
                 <FormControl>
-                  <Input placeholder="your password" {...field} />
+                  <Input type="password" placeholder="your password" {...field} />
                 </FormControl>
                 <FormMessage />
               </FormItem>
